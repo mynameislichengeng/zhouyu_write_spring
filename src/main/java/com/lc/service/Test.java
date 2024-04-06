@@ -12,6 +12,9 @@ public class Test {
     public static void main(String[] args) {
         ZhouyuApplicationContext context = new ZhouyuApplicationContext(Config.class);
 
-        Object obj = context.getBean("test");
+
+        System.out.println(context.getBean("userService"));
+        System.out.println(context.getBean("userService"));
+        System.out.println(context.getBean("userService"));
     }
 }

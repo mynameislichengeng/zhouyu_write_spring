@@ -1,6 +1,8 @@
 package com.lc.service;
 
 import com.lc.spring.Component;
+import com.lc.spring.Scope;
+import com.lc.spring.constants.ScopeName;
 
 /**
  * @author by licheng01
@@ -8,5 +10,6 @@ import com.lc.spring.Component;
  * @description
  */
 @Component
+//@Scope(ScopeName.PROTOTYPE)
 public class UserService {
 }
